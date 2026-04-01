@@ -1,0 +1,22 @@
+[
+  {
+    "method": "GET",
+    "path": "/stats",
+    "expectedStatus": 200
+  },
+  {
+    "method": "GET",
+    "path": "/goals",
+    "expectedStatus": 200
+  },
+  {
+    "method": "GET",
+    "path": "/projects",
+    "expectedStatus": 200
+  },
+  {
+    "method": "GET",
+    "path": "/forum/topics",
+    "expectedStatus": 200
+  }
+]

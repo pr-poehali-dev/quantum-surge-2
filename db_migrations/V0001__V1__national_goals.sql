@@ -1,0 +1,1 @@
+CREATE TABLE national_goals (id SERIAL PRIMARY KEY, title VARCHAR(255) NOT NULL, description TEXT, category VARCHAR(100), target_value NUMERIC, current_value NUMERIC, unit VARCHAR(50), deadline_year INTEGER, icon VARCHAR(10), color VARCHAR(50), created_at TIMESTAMP DEFAULT NOW());
